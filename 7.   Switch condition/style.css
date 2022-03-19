@@ -1,0 +1,15 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    border: 1px solid red;
+    width: 500px;
+    height: 500px;
+    padding-left: 30px;
+}
+#button{
+    color: blue;
+    background-color: bisque;
+}

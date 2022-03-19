@@ -1,0 +1,19 @@
+
+h1{
+     color: green;
+    text-decoration-color: green;
+    text-size-adjust: 50px;
+}
+h2{
+    text-size-adjust: 50px;
+}
+div{
+    height: 30px;
+    width: 150px;
+    
+    justify-content: center;
+    background-color: green;
+    text-decoration-color: white;
+  
+
+}
