@@ -1,0 +1,29 @@
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.wrapper{
+    border: 1px solid red;
+    width: 400px;
+    height: 200px;
+     /* align-items: center;  */
+}
+.firstName{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+.lastName{
+    margin-top: 20px;
+    margin-left: 10px;
+    
+}
+#myButton{
+  margin-left: 150px;
+   width: 50px;
+   height: 20px;
+} 
+#here{
+    padding-left: 150px;
+}

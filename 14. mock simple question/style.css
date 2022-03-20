@@ -1,0 +1,84 @@
+
+  body{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      
+  }
+  .wrapper{
+       display: grid; 
+    border: 5px solid red;
+    width:980px;
+    height: 680px;
+     
+  }
+  #header{
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      border: 1px solid blue;
+      height: 140px;
+      width: 980px;
+      background-color: aquamarine;
+      font-size: 30px;
+  }
+  .sect{
+    display: grid;
+      flex-direction: row;
+      margin-right: -15px;
+  }
+  .sideBar{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+      border: 1px solid blue;
+      width:270px;
+      height: 450px;
+      background-color: aquamarine;
+  }
+  .content{
+    grid-column: 2/2;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width:690px;
+    height: 450px;
+    background-color: aquamarine;
+    font-size: 30px;
+   
+    
+  }
+  #footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    border: 1px solid blue;
+    width:980px;
+    height: 70px;
+    background-color: aquamarine;
+    font-size: 30px;
+   margin-bottom: -10px;
+    
+  }
+  .linkOne{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    align-items: center;
+      border: 1px solid red;
+      width: 270px;
+      height: 30px;
+      font-size: 25px;
+  }
+  .linkTwo{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  align-items: center;
+    border: 1px solid red;
+    width: 270px;
+    height: 30px;
+    margin-top: 10px;
+    font-size: 25px;
+}

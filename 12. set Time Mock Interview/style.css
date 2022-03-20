@@ -1,0 +1,137 @@
+/* *{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background: #181818;
+    margin: 150px 0;
+    text-align: center;
+    font-family: cursive;
+}
+.banner{
+    font-size: 70px;
+    text-transform: uppercase;
+    background: #d7d7d7;
+    color: #fff;
+    width: 60%;
+    height: 100px;
+    margin: 0 auto;
+    border-bottom: 10px solid #555;
+}
+.banner span{
+    color: #555;
+}
+#clock{
+    background: #000;
+    font-size: 100px;
+    color: #fff;
+    height: 150px;
+    width: 60%;
+    margin-bottom: 0 auto;
+    border-bottom: 10px solid #333;
+
+} */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 80px;
+}
+.wrapper {
+    display: grid;
+    width: 800px;
+    height: 450px;
+    border: 1px solid red;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    grid-auto-rows: minmax(100px, auto);
+    grid-template-rows: repeat(2, 1fr);
+
+  }
+  .one {
+    grid-column: 1 / 2;
+    grid-row:1/3;
+    border: 1px solid black;
+    padding-top: 10px;
+    padding-left: 10px;
+  }
+  .two {
+    grid-column: 2 / 3;
+    grid-row: 1 / 3;
+    border: 1px solid black;
+    padding-left: 10px;
+    padding-top: 10px;
+  }
+  .three {
+      display: flex;
+    grid-column: 3/4;
+    grid-row: 1 / 3;
+    border: 1px solid black;
+    justify-content: center;
+    align-items: center;
+  }
+  .four {
+      display: flex;
+    grid-column:1/2;
+    grid-row: 3/5;
+    border: 1px solid black;
+    align-items: center;
+    justify-content: center;
+  }
+  .clock {
+      display: flex;
+    grid-column: 2/4;
+    grid-row: 3/5;
+    border: 1px solid black;
+     justify-content: center;  
+      align-items: center;
+   
+  }
+  #clock{
+    background: #000;
+    font-size: 30px;
+    color: #fff;
+    height: 40px;
+    width: 110px;
+    border-bottom: 5px solid red; 
+    border-top: 5px solid red;
+    border-left: 5px solid red;
+    border-right: 5px solid red;
+     /* margin-top:20px; */
+  }
+  table{
+      table-layout: fixed;
+      border: 1px solid blue;
+      width: 240px;
+  }
+  th {
+      background-color: bisque;
+    border: 1px solid blue;
+    overflow: hidden;
+     white-space: nowrap; 
+    text-overflow: ellipsis; 
+  }
+  td {
+    border: 1px solid blue;
+    overflow: hidden;
+     white-space: nowrap; 
+    text-overflow: ellipsis; 
+  }
+  button{
+      padding: 5px;
+      background-color: blue;
+  }
+  .reset{
+      background-color: burlywood;
+  }
+  .sometext{
+      display: flex;
+      border: 1px solid green;
+      background-color: pink;
+      width: 80px;px;
+      height: 20px;
+      align-items: center;
+      justify-content: center;
+      border-radius: 10px;
+  }
