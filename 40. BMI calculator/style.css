@@ -1,0 +1,18 @@
+#button{
+    background-color: rgb(138, 138, 170);
+    color: red;
+}
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 100px;
+}
+.card-header{
+    margin-top: 15px;
+    background-color: black;
+    color: white;
+}
+.card{
+    border: 1px solid red;
+}
